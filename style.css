@@ -1,0 +1,98 @@
+
+body{
+    background-color: #f2e4d8;
+}
+
+
+.container{
+
+    width: 600px;
+    height: auto;
+    border: 0px solid black;
+    margin:auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 50px;
+   ;
+    
+
+}
+
+.container > img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.preparation{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff7fc;
+
+}
+
+.preparation p{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+ td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.preparation li::marker{
+    color: #73374f;
+    
+}
+
+.ingredients li::marker{
+    color: brown;
+} 
+
+.instructions{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+li {
+    margin: 12px;
+    margin-left: 0px;
+
+}
+
+
+h2, h4  {
+     font-family: "Young Serif", serif;
+     font-weight: 400 ;
+}
+
+
+p, li {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+ol, ul
+{
+    padding-inline-start: 20px;
+}
+
+h3{
+font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
